@@ -1,0 +1,36 @@
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+}
+
+.btn-group button {
+    margin-right: 10px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #80bdff;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 991px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}

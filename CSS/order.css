@@ -1,0 +1,18 @@
+
+.total-section h2 {
+    color: red;
+}
+
+.total-section .total {
+    color: blue;
+}
+
+table th,
+table td {
+    text-align: center;
+}
+
+
+.card-body {
+    padding: 20px;
+}

@@ -1,0 +1,19 @@
+#searchBtnDiv {
+    display: flex;
+  }
+
+  #searchBtnDiv > select {
+    width: 200px;
+  }
+  #crudBtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .saveViewBtns {
+    position: absolute;
+    top: -60px;
+    left: 76%;
+    margin: 2px;
+  }
