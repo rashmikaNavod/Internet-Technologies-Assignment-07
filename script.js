@@ -11,13 +11,13 @@ const main_div =  document.querySelector('#main-div');
 
 
 home.addEventListener('click' , ()=>{
-    event.preventDefault();
+
     main_div.style.display = 'none';
 
 });
 
 customer.addEventListener('click' , ()=>{
-    event.preventDefault();
+
     customer_div.style.display = 'block';
 
 });
