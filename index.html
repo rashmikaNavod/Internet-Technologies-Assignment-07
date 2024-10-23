@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="CSS/item.css">
     <link rel="stylesheet" href="CSS/order.css">
 </head>
+
 <body class="bg-gray">
 
     <!-- Header -->
@@ -58,6 +59,52 @@
 
     <!-- Main-section -->
     <main id="main-div">
+
+        <!-- home -->
+        <div id="home-div" class="container home">
+            <h3 class="mb-3 mt-3 text-center">Dashboard Overview</h3>
+
+            <div class="row">
+                <!-- Customer Count Card -->
+                <div class="col-lg-3">
+                  <div class="card text-white bg-primary mb-3">
+                    <div class="card-body">
+                      <h5 class="card-title">Customers</h5>
+                      <p class="card-text fs-2" id="customerCount">100</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Item Count Card -->
+                <div class="col-lg-3">
+                  <div class="card text-white bg-success mb-3">
+                    <div class="card-body">
+                      <h5 class="card-title">Items</h5>
+                      <p class="card-text fs-2" id="itemCount">50</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Order Count Card -->
+                <div class="col-lg-3">
+                  <div class="card text-white bg-warning mb-3">
+                    <div class="card-body">
+                      <h5 class="card-title">Orders</h5>
+                      <p class="card-text fs-2" id="orderCount">150</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Total Revenue Card -->
+                <div class="col-lg-3">
+                  <div class="card text-white bg-danger mb-3">
+                    <div class="card-body">
+                      <h5 class="card-title">Total Revenue</h5>
+                      <p class="card-text fs-2" id="totalRevenue">$5000</p>
+                    </div>
+                  </div>
+                </div>
+            
+            </div>
+
+        </div>
 
         <!-- customer -->
         <div id="customer-div" class="container customer">
@@ -112,9 +159,9 @@
                             </select>
                         </div>
                         <table class="table table-bordered">
-                            <thead class="table-dark">
+                            <thead class="table-primary">
                             <tr>
-                                <th>Customer ID</th>
+                                <th>ID</th>
                                 <th>Name</th>
                                 <th>Address</th>
                                 <th>Salary</th>
@@ -150,7 +197,7 @@
         <!-- item -->
         <div id="item-div" class="container item">
 
-            <div id="formInfo">
+            <div>
                 <h2 class="mb-3 mt-3 text-center">Item Manage</h2>
             </div>
 
@@ -186,9 +233,9 @@
                   
                 <!-- Table-->
                 <table class="table table-bordered table-hover">
-                    <thead>
+                    <thead class="table-primary">
                     <tr class="table-info">
-                      <th scope="col">Item Name</th>
+                      <th scope="col">ID</th>
                       <th scope="col">Description</th>
                       <th scope="col">Price</th>
                       <th scope="col">Qty</th>
@@ -340,7 +387,7 @@
             <!-- Order Details Table -->
             <div class="row mt-4">
                 <table class="table table-bordered">
-                    <thead class="table-success">
+                    <thead class="table-primary">
                     <tr>
                         <th>Item Code</th>
                         <th>Item Name</th>

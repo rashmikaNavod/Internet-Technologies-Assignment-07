@@ -128,10 +128,14 @@ main{
     z-index: -1;
     top: 75px;
 }
-
-
-
-
+.home{
+    display: block;
+    width: 100%;
+    height: max-content;
+    position: relative;
+    z-index: -1;
+    top: 75px;
+}
 
 @media (max-width:991px) {
 
@@ -143,7 +147,6 @@ main{
         left: 0;
         right: 0;
         background: #fff;
-
     }
     
     .main-header .navbar-nav > li + li {
@@ -153,9 +156,11 @@ main{
     .main-header .navbar-nav > li > .nav-link{
         line-height: 50px;
     }
+
     .main-header .navbar-nav > li > .nav-link::after{
         display: none;
     }
+
     .main-header .navbar-toggler{
         display: flex;
         flex-direction: column;
@@ -164,6 +169,7 @@ main{
         outline: none;
         box-shadow: none;
     }
+
     .main-header .navbar-toggler span{
         width: 25px;
         height: 2px;
@@ -171,12 +177,15 @@ main{
         margin: 4px 0;
         transition: 0.3s;
     }
+
     .main-header .navbar-toggler:not(.collapsed) span:nth-child(1){
         transform: translateY(10px) rotate(45deg);
     }
+
     .main-header .navbar-toggler:not(.collapsed) span:nth-child(2){
         opacity: 0;
     }
+    
     .main-header .navbar-toggler:not(.collapsed) span:nth-child(3){
         transform: translateY(-10px) rotate(-45deg);
     }
